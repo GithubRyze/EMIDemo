@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/iv_icon_1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_icon_2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_icon_3"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+    </RelativeLayout>
+    <TextView
+
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            tools:text="eee"
+            android:textColor="@color/main_color"
+            android:textSize="14sp"
+            android:gravity="left"
+            android:id="@+id/tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_gravity="end"
+        android:layout_marginLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:textColor="@color/main_color"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv_item_value"
+            android:textSize="48sp"
+            tools:text="28"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/main_color"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv_symbol"
+            android:layout_toRightOf="@id/tv_item_value"
+            android:textSize="48sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/main_color"
+            android:id="@+id/tv_temp_symbol"
+            android:visibility="gone"
+            android:layout_alignBottom="@id/tv_item_value"
+            android:text="C"
+            android:layout_toRightOf="@id/tv_symbol"
+            android:textSize="48sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@color/main_color"
+            android:textSize="24sp"
+            android:id="@+id/tv_pollution_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_marginTop="-6dp"
+            android:textColor="@color/main_color"
+            android:layout_below="@id/tv_pollution_level"
+            android:textSize="24sp"
+            android:id="@+id/tv_lpo_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>

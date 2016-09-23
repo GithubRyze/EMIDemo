@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wongs/views/SeekArc.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/scrubber_control_disabled_holo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/scrubber_control_focused_holo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/scrubber_control_normal_holo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/scrubber_control_pressed_holo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/seek_arc_control_selector.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

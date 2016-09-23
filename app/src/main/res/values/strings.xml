@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EMIDemo</string>
+    <string name="percent_symbol">&#037;</string>
+    <string name="temp_symbol">&#176;</string>
+    <string name="pressure_symbol">G</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="pollution">Pollution level</string>
+    <string name="adjust">Cooler &#038; Heater Controller</string>
+    <string name="adjust_text">Temperature measuring and controlling\n the cooler or heater</string>
+    <string name="heat_cool_text">Hand gesture control to\n increase or decease</string>
+    <string name="tap_text">Temperature measuring \n and controlling cooler \n and heater level</string>
+    <string name="tap_gesture">Gesture recognition</string>
+    <string name="pressure_sensor">Pressure</string>
+    <string name="fan_heater_sensor">Fan and Heater sensor</string>
+    <string name="gesture_sensor">Gesture</string>
+    <string name="pressure_sensor_introduce">Tap in the box to indicate the pressure</string>
+    <string name="pressure_high">High</string>
+    <string name="pressure_low">Low</string>
+    <string name="gesture_sensor_introduce">Hand gesture detection to indicate the direction</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="time">Time</string>
+    <string name="lpo">LPO</string>
+</resources>

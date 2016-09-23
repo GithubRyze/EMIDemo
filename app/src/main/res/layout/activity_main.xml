@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/theme_color"
+    tools:context="com.wongs.activity.MainActivity"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+
+        <com.wongs.views.CommonView
+            android:clickable="true"
+            android:background="@color/item_background"
+            android:id="@+id/temp_view"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+       <com.wongs.views.CommonView
+           android:clickable="true"
+           android:background="@color/item_background"
+           android:id="@+id/humidity_view"
+           android:layout_marginRight="@dimen/activity_horizontal_margin"
+           android:layout_marginLeft="@dimen/activity_horizontal_margin"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"/>
+
+       <com.wongs.views.CommonView
+           android:clickable="true"
+           android:background="@color/item_background"
+           android:id="@+id/pressure_view"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.wongs.views.CommonView
+            android:clickable="true"
+            android:background="@color/item_background"
+            android:id="@+id/pollution_view"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <com.wongs.views.CommonView
+            android:clickable="true"
+            android:background="@color/item_background"
+            android:id="@+id/tap_view"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <com.wongs.views.CommonView
+            android:clickable="true"
+            android:background="@color/item_background"
+            android:id="@+id/gesture_view"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/heat_cool_display">
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:background="@color/theme_color"
+        android:layout_width="64dp"
+        android:layout_height="12dp" />
+</LinearLayout>
